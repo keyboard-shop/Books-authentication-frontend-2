@@ -35,7 +35,7 @@ const BooksPage = () => {
       try {
           //const response = await fetch('http://localhost:8080/api/products');// to -> server.js (backend folder) -> app.use('/api/products', productRoutes);
           //const response = await fetch('https://books-backend-1.vercel.app/api/products');// to -> Vercel backend folder 
-          const response = await fetch('https://books-auth-backend-2.vercel.app/api/products');// to -> Vercel backend folder 
+          const response = await fetch('https://books-auth2-backend-2.vercel.app/api/products');// to -> Vercel backend folder 
           //const response = await fetch('https://books-backend-1-9j1m2zycm-verceltestingnextjs-projects.vercel.app/');// to -> Vercel backend folder 
       
           if (!response.ok) {
