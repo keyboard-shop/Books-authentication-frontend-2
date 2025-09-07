@@ -9,6 +9,8 @@ import Navbar from '../components/Navbar';
 
 import { StrictMode } from 'react'
 import { BrowserRouter } from "react-router-dom";
+import UserPage from '../pages/UserPage';
+import AdminPage from '../pages/AdminPage';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/books' element={<BooksPage />} />
+          <Route path='/user' element={<UserPage />} />
+          <Route path='/admin' element={<AdminPage />} />
         </Routes>
       </StrictMode>
     </BrowserRouter>
