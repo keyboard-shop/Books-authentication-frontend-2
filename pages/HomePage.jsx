@@ -11,10 +11,6 @@ const HomePage = () => {
       <h4>
         Books Auth
       </h4>
-      <br />
-      <h4>
-      Let's discuss the results and the code in our lesson.
-      </h4>
     </div>
   )
 }
