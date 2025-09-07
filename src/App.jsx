@@ -3,14 +3,17 @@
 import './App.css'
 
 import { Route, Routes } from "react-router-dom";
+
 import HomePage from '../pages/HomePage';
 import BooksPage from '../pages/BooksPage';
+import UserPage from '../pages/UserPage';
+import AdminPage from '../pages/AdminPage';
+
 import Navbar from '../components/Navbar';
 
 import { StrictMode } from 'react'
 import { BrowserRouter } from "react-router-dom";
-import UserPage from '../pages/UserPage';
-import AdminPage from '../pages/AdminPage';
+
 
 
 function App() {
