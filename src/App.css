@@ -35,7 +35,7 @@ a{
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  border: 5px solid palevioletred;
+  border: 10px solid palevioletred;
   padding: 0px 100px;
 
   font-size: 40px;
@@ -47,7 +47,7 @@ a{
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  border: 5px dotted orange;
+  border: 10px dotted orange;
   padding: 0px 100px;
 
   font-size: 40px;
@@ -59,7 +59,7 @@ a{
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  border: 5px dotted green;
+  border: 10px dotted green;
   padding: 0px 100px;
 
   font-size: 40px;

@@ -7,7 +7,7 @@ import React from 'react'
 const UserPage = () => {
   return (
     <div className='user-page'>
-      User Authentication Page
+      USER Authentication Page
     </div>
   )
 }
