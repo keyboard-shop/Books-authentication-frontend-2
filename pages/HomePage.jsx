@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className='home-page'>
       <h2>Authentication</h2>
       <h4>
-        Books Auth-4444444444444444
+        Books Auth frontend works
       </h4>
     </div>
   )
