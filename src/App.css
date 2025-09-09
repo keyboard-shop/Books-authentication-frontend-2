@@ -35,7 +35,7 @@ a{
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  border: 10px solid palevioletred;
+  border: 10px dotted palevioletred;
   padding: 0px 100px;
 
   font-size: 40px;
@@ -75,7 +75,7 @@ a{
   padding: 1.25rem;
   background-color: #eaeeee;
 
-  border: 5px solid rgb(118, 23, 31);
+  border: 10px dotted rgb(118, 23, 31);
 }
 
 .book {
@@ -127,3 +127,59 @@ a{
   padding: 10px 20px;
   border: 5px solid darkgray;
 }
+
+.header-links{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+  border: 3px solid grey;
+}
+
+.logout-button-header{
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: red;
+}
+
+.dashboard-page{
+  margin-top: 100px;
+  text-align: center;
+  border: 10px dotted rgb(130, 223, 99);
+  margin-inline: auto;
+  padding: 20px;
+}
+
+.h2-logout{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 5px dotted darkturquoise;
+}
+
+.clerk-button{
+  isplay: block;
+  padding: 0px 10px;
+}
+
+.login-page{
+  padding: 10px;
+  margin-top: 20px;
+ display: flex;
+ justify-content: center;
+  border: 10px double green;
+}
+
+.signup-page{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+   border: 10px double green;
+}
+

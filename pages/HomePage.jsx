@@ -7,9 +7,9 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div className='home-page'>
-      <h2>Authentication</h2>
+      {/* <h2>Authentication</h2> */}
       <h4>
-        Home Authentication Page
+        HOME Page
       </h4>
     </div>
   )
