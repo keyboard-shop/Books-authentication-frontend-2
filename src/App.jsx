@@ -19,9 +19,9 @@ import { BrowserRouter } from "react-router-dom";
 import { SignedIn, SignedOut, SignUp } from '@clerk/clerk-react';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
-import Dashboard from '../pages/dashboard';
+//import Dashboard from '../pages/dashboard';
 //import Dashboard from '../pages/Dashboard';
-//import Dashboard from '../pages/Dashboard';
+import Dashboard from '../pages/Dashboard';
 
 import Layout from '../layouts/Layout';
 import UserLayout from '../layouts/UserLayout';
