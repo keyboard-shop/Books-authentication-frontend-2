@@ -28,7 +28,10 @@ createRoot(document.getElementById('root')).render(
   //   </StrictMode>
   // </BrowserRouter>
 
-  <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
+
+  // https://clerk.com/docs/account-portal/direct-links
+  // <ClerkProvider publishableKey={PUBLISHABLE_KEY}>   <== ORIGINAL code
+  <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/home">
     <App />
   </ClerkProvider>
 

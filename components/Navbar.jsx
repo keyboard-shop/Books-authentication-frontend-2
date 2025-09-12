@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { useUser } from '@clerk/clerk-react';
 //import { useUser, useSignOut } from '@clerk/clerk-react';
 import { SignOutButton } from '@clerk/clerk-react'
+import { ClerkProvider } from '@clerk/clerk-react'
 
 // Navbar.jsx to -> App.jsx
 const Navbar = () => {
@@ -23,6 +24,7 @@ const Navbar = () => {
     // console.log("All USER's data from Clerk ===>", userDATA)
     const { user, isSignedIn } = useUser();
     console.log("USER from Clerk ===>", user)
+   // console.log("USER's email from Clerk ===>", user.emailAddresses[0].emailAddress)
     console.log(" isSignedIn from Clerk  ======>", isSignedIn)
     //const { signOut } = useSignOut();
 
@@ -47,7 +49,7 @@ const Navbar = () => {
                 })}
                 className="nav-link"
             >
-                HOME PAGE
+                HOME 2 PAGE
             </NavLink>
 
 
@@ -137,18 +139,25 @@ const Navbar = () => {
                     <li><button onClick={() => { /* Add logout logic here  }}>Logout</button></li> */}
 
 
-                    <SignOutButton className="logout-button-header">
-                        <button>Sign Out button</button>
+                      <SignOutButton className="logout-button-header"> 
+                     {/* <SignOutButton className="logout-button-header" afterSignOutUrl="/home"> */}
+                        <button>Sign Out Button </button>
                     </SignOutButton>
+
+                    {/* <ClerkProvider   afterSignOutUrl="/home">
+                        <SignOutButton className="logout-button-header" afterSignOutUrl="/home">
+                            <button>Sign Out Button </button>
+                        </SignOutButton>
+                    </ClerkProvider> */}
 
                 </>
             ) : (
-                <> 
-                {/* <li><a href="/login">Login</a></li> */}
-                <Link className='header-links' to={"/login"}>Log In</Link>
-                <Link className='header-links' to={"/signup"}>Sign UP</Link>
-               
-            </>
+                <>
+                    {/* <li><a href="/login">Login</a></li> */}
+                    <Link className='header-links' to={"/login"}>Log In</Link>
+                    <Link className='header-links' to={"/signup"}>Sign UP</Link>
+
+                </>
             )}
             {/* </ul> */}
 

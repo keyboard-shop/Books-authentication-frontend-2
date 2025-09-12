@@ -15,12 +15,22 @@ const Dashboard = () => {
     }
 
 
+
+    console.log("USER's email from Clerk Dashboard ===>", user.emailAddresses[0].emailAddress)
+
+
     return (
         <div className='dashboard-page'>
             <h1>Signed in successfully by using Clerk !
                 {/* <br />
                 Dashboard Page */}
             </h1>
+
+            <br />
+
+            <h1 className='users-email'>Signed-in user's email: {user.emailAddresses[0].emailAddress} </h1>
+
+            <br />
 
             <h1> The user has been successfully added to MongoDB !
                 {/* <br />
