@@ -92,6 +92,32 @@ const Navbar = () => {
 
 
 
+
+            <NavLink
+                to="/register"
+                style={({ isActive }) => ({
+                    color: isActive ? '#fff' : '#545e6f',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
+                })}
+                className="nav-link"
+            >
+                Create user with img
+            </NavLink>
+
+
+            <NavLink
+                to="/showpage"
+                style={({ isActive }) => ({
+                    color: isActive ? '#fff' : '#545e6f',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
+                })}
+                className="nav-link"
+            >
+                show user with img
+            </NavLink>
+
+
+
             {/* <NavLink
                 to="/dashboard"
                 style={({ isActive }) => ({

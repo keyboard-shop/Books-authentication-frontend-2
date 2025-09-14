@@ -25,6 +25,9 @@ import Dashboard from '../pages/Dashboard';
 
 import Layout from '../layouts/Layout';
 import UserLayout from '../layouts/UserLayout';
+//import ImagePage from '../pages/ImagePage';
+//import CreateUserWithImagePage from '../pages/CreateUserWithImagePage';
+//import ShowUserWithImagePage from '../pages/ShowUserWithImagePage';
 
 
 
@@ -55,6 +58,8 @@ function App() {
           <Route path='/books' element={<BooksPage />} />
           <Route path='/user' element={<UserPage />} />
           <Route path='/admin' element={<AdminPage />} />
+          {/* <Route path='/register' element={<CreateUserWithImagePage />} />
+          <Route path='/showpage' element={<ShowUserWithImagePage />} /> */}
           {/* <Route path='/dashboard' element={<Dashboard />} /> */}
 
 

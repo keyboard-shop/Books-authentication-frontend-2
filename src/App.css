@@ -189,7 +189,6 @@ a{
 
 
 /* books <form> start ========================================================*/
-
 .books-form-section{
   border: 5px double green;
 }
@@ -199,6 +198,28 @@ a{
   height: 50px;
   border: 2px solid orange;
 }
-
 /* books <form> end ========================================================*/
+
+
+.admin-fileupload{
+  border: 5px dotted darkgreen;
+}
+
+.image-page{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 100px auto;
+  border: 5px solid slateblue;
+}
+
+.showpage{
+  padding: 20px;
+  border: 5px solid darkcyan;
+}
+
+input{
+  margin: 10px;
+}
 

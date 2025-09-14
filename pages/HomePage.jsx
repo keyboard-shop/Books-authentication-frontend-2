@@ -26,7 +26,8 @@ const HomePage = () => {
     const bookData = { title, author, price };
 
     try {
-      const response = await fetch('https://books-auth2-backend-2.vercel.app/api/products', {
+      //const response = await fetch('https://books-auth2-backend-2.vercel.app/api/products', {
+        const response = await fetch('http://localhost:8080/api/products', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
